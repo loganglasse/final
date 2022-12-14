@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box:
+}
+
+body {
+  background-color: #333333;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav {
+  position: absolute;
+}
+
+#nav {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 2rem;
+  background-color: #333333;
+  padding: 14px 16px;
+}
+
+#nav a {
+  position: center;
+  font-size: 200%;
+  text-decoration: none;
+  padding-right: 5rem;
+  color: #fff;
+}
+
+
+
+#titleBanner {
+  /* border-radius: 90px; */
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50vh;
+  /*background-image: none; /* url(https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1496&q=80); */
+  background-position: center center;
+  /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.7); */
+}
+
+#titleBanner h1 {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  /* text-transform: uppercase; */
+  font-size: 250%;
+  padding: 50px 16px;
+  margin: 0 0 2vw 2vw;
+  text-align: center;
+  /* position: absolute; */
+  bottom: 3vw;
+  left: 0;
+  text-shadow: 0 8px 8px #000000;
+  line-height: 80%;
+}
+
+#titleBanner h1.tp {
+  font-size: 250%;
+}
+
+#titleBanner h1.black {
+  color: #fff;
+  text-shadow: 0 8px 8px #333333;
+}
+
+#titleBanner h4 {
+  position: absolute;
+  bottom: 0;
+  left: 2vw;
+  color: #fff;
+}
+
+h2 {
+  margin: auto;
+  width: 50%;
+  padding-left: 650px;
+  padding-bottom: 100px;
+  color: #fff;
+}
+
+#imagees {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  float: left;
+  padding-left: 180px;
+}
+
+/*#titleBanner h1.tp6 {
+  color: black;
+}*/
+
+
+#recipeColumns {
+  padding: 2vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  padding-bottom: 6vh;
+  padding-left: 150px;
+ /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.7);*/
+}
+
+.box {
+  inline-size: 500px; 
+  overflow: hidden;
+  padding-right: 100px;
+  padding-left: 100px;
+  position: relative;
+}
+
+#recipeColumns div#ingredients { flex-basis 10% ;}
+#recipeColumns div#equipment { flex-basis 10% ;}
+#recipeColumns div#directions { flex-basis 10% ;}
+
+
+#recipeColumns ul,
+#recipeColumns ol {
+  padding-left: 1.1em;
+  color: #fff;
+}
+
+ul, ol {
+  display: block;
+}
+
+#recipeColumns h4 {
+  font-family: font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 150%;
+  margin: 0;
+  color: #fff;
+  position: center;
+}
+
+#footer,
+#footer a {
+  text-align: center;
+  color: #fff;
+  padding-top: 400px;
+}
+
+@media screen and (orientation: portrait) {
+  
+  #recipeColumns {
+    padding: 1vh 2vh 2vh 2vh;
+    display: block;
+  }
+
+  #recipeColumns {
+    position: relative;
+    margin: 2.5vh 0 5vh 0;
+    font-size: 100%;
+    color: #fff;
+  }
+   
+}
+
+@media screen and (orientation: portrait) and (max-width: 575px) (background-color: ) {
+  
+  #titleBanner {
+    height: 98vh;
+  }
+  
+  #titleBanner h1 {
+    font-size: 500%;
+    margin: 0 0 3vh 3vh;
+  }
+  
+}
