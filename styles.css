@@ -10,6 +10,8 @@ body {
 }
 
 
+/* got all drop down code from w3schools https://www.w3schools.com/howto/howto_css_dropdown.asp */
+
 .dropbtn {
   background-color: #666666;
   color: #fff;
@@ -44,6 +46,8 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #9e9e9e;}
+
+/* got all drop down code from w3schools https://www.w3schools.com/howto/howto_css_dropdown.asp */
 
 
 h1 {
