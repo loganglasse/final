@@ -223,35 +223,35 @@ window.onload = function() {
     CinnamonSwirlBread.displayRecipe();
   }
     
-  document.querySelector("#8Recipe").onclick = function(){
+  document.querySelector("#eighthRecipe").onclick = function(){
     ItalionBread.displayRecipe();
   }
   
-  document.querySelector("#9Recipe").onclick = function(){
+  document.querySelector("#ninthRecipe").onclick = function(){
     MonkeyBread.displayRecipe();
   }
   
-  document.querySelector("#10Recipe").onclick = function(){
+  document.querySelector("#tenthRecipe").onclick = function(){
     ReubenSandwich.displayRecipe();
   }
   
-  document.querySelector("#11Recipe").onclick = function(){
+  document.querySelector("#elevenRecipe").onclick = function(){
     GrilledCheeseSandwich.displayRecipe();
   }
   
-  document.querySelector("#12RecipeRecipe").onclick = function(){
+  document.querySelector("#twelveRecipeRecipe").onclick = function(){
     MonteCristoSandwich.displayRecipe();
   }
     
-  document.querySelector("#13RecipeRecipe").onclick = function(){
+  document.querySelector("#thirteenRecipeRecipe").onclick = function(){
     CinnamonRollPancakes.displayRecipe();
   }
   
-  document.querySelector("#14RecipeRecipe").onclick = function(){
+  document.querySelector("#fourteenRecipeRecipe").onclick = function(){
     CinnamonRoll.displayRecipe();
   }
   
-  document.querySelector("#15RecipeRecipe").onclick = function(){
+  document.querySelector("#fifteenRecipeRecipe").onclick = function(){
     CinnamonToast.displayRecipe();
   }
   

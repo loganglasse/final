@@ -230,3 +230,14 @@ ul, ol {
   }
   
 }
+
+h5 {
+  font-size: 50px;
+  color: #fff;
+  padding-top; 100px;
+}
+
+h6 {
+  font-size: 30px;
+  color: #717191;
+}
